@@ -1,135 +1,66 @@
-body {
-    margin: 0;
-    background-color: black;
-    font-family: monospace;
-}
-
-.header ul .destaque {
-    font-weight: 800;
-}
-
-.header {
-    border-bottom: 3px solid aqua;
-}
-
-.container {
-    width: 80%;
-    margin: auto;
+.flex-item {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
     display: flex;
-}
-
-.header .container {
-    justify-content: space-between;
- }
-
-.titulo {
-    color: aqua;
-    width: fit-content;
-    font-weight: 500;
-}
-
-.navBar {
-    color: yellow;
-    list-style: none;
-    display: flex;
-    justify-content:space-evenly;
-    width: 300px;
-    padding: 0;
     align-items: center;
 }
 
-.banner {
-    background-image: url("imgs/bg-jelly-fish-para-home.png");
-    height: 500px;
-    color: #fff;
-    display: flex;
-}
-
-.banner .container p span {
-font-weight: 1000;
-}
-
-.banner .container{
-    font-size: 36px;
-    justify-content: center;
-}
-
-.banner .container p{
-    width: 10%;
-}    
-
-.social {
-    background-color: beige;
-    display: flex;
-
-}
-
-.social .container .boxes .box img{
-width: 170px;
-}
-
-.social .container .boxes{
-    display: flex;
-}
-
-.box{
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.footer {
-    background-color: rgb(32, 179, 130);
-    height: 150px;
-    color: white;
-    display: flex;
-    font-size: 18px;
-}
-
-.footer .container{
-    justify-content: center;
-}
-
-a{
-    color: yellow;
-    text-decoration: none;
-}
-
-.banner .container .card{
-    background-color: beige;
-    height: 400px;
-    width: 400px;
-    display: flex;
-    flex-direction: column;
-    color: palevioletred;
-    align-items: center;
+.base {
+    margin-bottom: 15px;
+    background-color: #d0d3d4;
     border-radius: 4px;
 }
 
-.card h1{
-    font-size: 30px;
+.box1 {
+    background-color: #63b1bc;
 }
 
-.card h4{
-    font-size: 16px;
+.box2 {
+    background-color: #1f2a44;
 }
 
-.card input{
-    border: palevioletred solid 2px;
-    padding: 10px;
-    text-align: center;
+.box3 {
+    background-color: #ed145b;
+}
+
+.box4 {
+    background-color: #efb661;
+}
+
+h1 {
+    margin: auto;
+}
+
+/* Insira o código abaixo */
+
+ .container1 {
+  display: flex;
+}
+
+.container2 {
+    display: flex;
+}
+
+.container3 {
+    display: flex;
+}
+
+.container4 {
+  
+}
+.container5 {
+  
+}
+.container6 {
+  
 } 
 
-.card button{
-    width: 100px;
-    height: 35px;
-    background-color: palevioletred;
-    color: white;
-    margin-top: 25px;
-    border: 0; 
-    border-radius: 5px;
-    font: 700 20px monospace;
-    color: white;
-    cursor: pointer;
+.container-exercicio-B{
+display: flex;
+flex-direction: column-reverse;
+}
+
+.container-desafio{
+
 }
