@@ -1,66 +1,143 @@
-.flex-item {
-    width: 100px;
-    height: 100px;
-    border-radius: 4px;
+/* Começo do cabeçalho */
+body {
+    background-color: black;
+    margin: 0;
+    font-family: monospace;
+}
+
+.header{
+    border-bottom: 3px solid #f5e536;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
     display: flex;
+}
+
+.header .container{
+    justify-content: space-between;
+}
+
+.header ul #aqui {
+    font-weight: 800;
+}
+
+ul {
+    color: #e3b062;
+}
+
+.titulo {
+    color: #f5e536;
+    width: fit-content;
+    font-weight: 500;
+}
+
+.navBar {
+    width: 300px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
 }
 
-.base {
-    margin-bottom: 15px;
-    background-color: #d0d3d4;
+/* Fim do cabeçalho */
+
+/* Começo do Banner */
+
+.banner {
+    color: rgb(4, 2, 69);
+    display: flex;
+}
+
+.banner .container p span {
+    font-weight: 1000;
+}
+
+.banner .container {
+    display: flex;
+    margin-top: 10%;
+    justify-content: center;
+}
+
+.banner .container p{
+    width: 30%;
+}
+
+.banner .texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner h1 {
+    color: #f5e536;
+    font-size: 40px;
+    width: 80%;
+    margin-bottom: 0%;
+}
+
+.banner h4 {
+    
+    color: #ecebdf;
+    width: 75%;
+}
+
+.banner .botao_cad {
+    width: 15%;
+    border-radius: 20px;
+    background-color: #f5e536;
+    border: 1px solid white;
+}
+
+.banner img {
+    width: 30%;
+    height: 30%;
+}
+
+/* Fim do banner */
+
+/* Começo do Footer */
+
+a {
+    color: #f5e536;
+    text-decoration: none;
+}
+
+.banner .container .card {
+    background-color: rgb(68, 66, 64);
+    height: fit-content;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    color: #f5e536;
+    align-items: center;
     border-radius: 4px;
+    padding-bottom: 10px;
 }
 
-.box1 {
-    background-color: #63b1bc;
+.card h1 {
+    font-size: 30px;
 }
 
-.box2 {
-    background-color: #1f2a44;
+.card h4 {
+    font-size: 16px;
 }
 
-.box3 {
-    background-color: #ed145b;
+.card input {
+    border: rgb(248, 248, 248) solid 2px;
+    padding: 10px;
+    text-align: center;
 }
 
-.box4 {
-    background-color: #efb661;
-}
-
-h1 {
-    margin: auto;
-}
-
-/* Insira o código abaixo */
-
- .container1 {
-  display: flex;
-}
-
-.container2 {
-    display: flex;
-}
-
-.container3 {
-    display: flex;
-}
-
-.container4 {
-  
-}
-.container5 {
-  
-}
-.container6 {
-  
-} 
-
-.container-exercicio-B{
-display: flex;
-flex-direction: column-reverse;
-}
-
-.container-desafio{
-
+.card button {
+    width: 120px;
+    height: 50px;
+    background-color: rgb(19, 19, 18);
+    margin-top: 25px;
+    font: 700 20px monospace;
+    border: 0;
+    border-radius: 4px; 
+    color: #f5e536;
+    cursor: pointer;
 }
